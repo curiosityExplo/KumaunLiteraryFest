@@ -6,8 +6,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fff"
     tools:context="com.example.iidea8.kumaunliteraryfest.QuizKLF">
 
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
 
     <TextView
         android:id="@+id/klf_quiz"
@@ -100,4 +105,5 @@
         </RelativeLayout>
     </ScrollView>
 
+</RelativeLayout>
 </RelativeLayout>
