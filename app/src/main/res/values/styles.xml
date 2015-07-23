@@ -7,6 +7,8 @@
     <style name="AppThemeFullScreen" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:windowFullscreen">true</item>
     </style>
-
+    <style name="AppThemeItemIndicator" parent="Theme.AppCompat.Light.DarkActionBar">
+       <item name="android:activatedBackgroundIndicator">@drawable/activated_background</item>
+    </style>
 
 </resources>
